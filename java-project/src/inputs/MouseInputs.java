@@ -18,7 +18,7 @@ public class MouseInputs implements MouseListener, MouseMotionListener {
 
     @Override
     public void mouseClicked(MouseEvent e) {
-        System.out.println("Mouse clicked");  
+        // System.out.println("Mouse clicked");  
     }
 
     @Override
@@ -48,7 +48,7 @@ public class MouseInputs implements MouseListener, MouseMotionListener {
 
     @Override
     public void mouseMoved(MouseEvent e) {
-        gamePanel.setRectPost(e.getX(), e.getY());
+        // gamePanel.setRectPost(e.getX(), e.getY());
         
     }
     
